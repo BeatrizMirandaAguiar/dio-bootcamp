@@ -39,13 +39,13 @@ public class Main {
 
         System.out.println("Conteudos inscritos:\n"+dev0.getConteudosInscrito()+"\nDev: "+dev0.getNome());
         dev0.progredir();
-        System.out.println("XP "+dev0+":"+dev0.calcularTotalXp());
+        System.out.println("XP "+dev0.getNome()+": "+dev0.calcularTotalXp());
         System.out.println("Conteudos concluídos:\n"+dev0.getConteudosConcluidos()+"\nDev: "+dev0.getNome());
         System.out.println("------------------------");
         System.out.println("Conteudos inscritos:\n"+dev1.getConteudosInscrito()+"\nDev: "+dev1.getNome());
         dev1.progredir();
         dev1.progredir();
-        System.out.println("XP "+dev1+":"+dev1.calcularTotalXp());
+        System.out.println("XP "+dev1.getNome()+": "+dev1.calcularTotalXp());
         System.out.println("Conteudos concluídos:\n"+dev1.getConteudosConcluidos()+"\nDev: "+dev1.getNome());
         System.out.println("------------------------");
         System.out.println("Conteudos inscritos:\n"+dev0.getConteudosInscrito()+"\nDev: "+dev0.getNome());
